@@ -1,0 +1,217 @@
+body {
+    font-family: monospace;
+    background-color: #F7F6F6;
+    margin: -30px 0px;
+    color: #203F54;
+}
+.polosa {
+    margin: 0px 25px 0px 430px;
+    height: 25px;
+    border-bottom: 1px solid #508EBF;
+}
+.polosa2 {
+    margin: 60px 25px 0px 430px;
+    height: 25px;
+    border-top: 1px solid #508EBF;
+}
+.nav {
+    background-color: #203F54;
+    padding: 25px 35px 0px 35px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 340px;
+}
+.logo {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.nav h1 {
+    font-family: serif;
+    font-weight: lighter;
+    color: #DC97A5;
+    font-size: 32px;
+    text-align: right;
+    width: 270px;
+    height: 83px;
+}
+.nav article {
+    border-bottom: 1px solid #F7F6F6;
+}
+.nav nav a{
+    text-decoration: none;
+    color: #F7F6F6;
+    display: block;
+    margin: 25px 0px 25px 0px;
+    font-size: 25px;
+    transition: 0.2s;
+}
+.nav nav a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.nav nav a:focus {
+    text-shadow: 1px 1px 10px #F7F6F6;
+}
+
+.osoba {
+    font-weight: bold;
+     color: #CCDBEA;
+}
+header {
+    margin: 0px;
+    background-color: #DC97A5;
+            background: url('https://learn.logikaschool.com/uploads/student/2887252/66363add18f60.jpg') no-repeat 50% 50%;
+            background-size: cover;
+            font-family: sans-serif;
+            height: 140px;
+}
+header h1 {
+    color: #DC97A5;
+    text-align: right;
+    font-style: italic;
+    padding: 50px 40px;
+}
+main {
+    margin: 25px 25px 15px 430px;
+}
+
+main p {
+    font-size: 16px;
+    color: #203F54;
+    text-align: center;
+}
+
+.art img {
+    width: 296px;
+    height: auto;
+}
+.art {
+    margin-bottom: 10px;
+}
+.art p {
+    color: #c76e80;
+    text-align: center;
+    margin-top: 0px;
+}
+.arts {
+        display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+     margin-top: 30px;
+}
+.button {
+    border-radius: 50%;
+    opacity: 0.8;
+    background-color: #203F54;
+    color: #508EBF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    padding: 10px 18px 10px 18px;
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover {
+    opacity: 1;
+    color: #c76e80;
+    transition: 0.2s ease-out;
+}
+.button:focus {
+    box-shadow: 0 0 2px 2px #203F54;
+    color: #CCDBEA;
+    text-shadow: 0 0 10px #CCDBEA;
+}
+
+.pages {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.top {
+    color: #DC97A5;
+    font-size: 16px;
+    position: absolute;
+    left: 430px;
+    text-decoration: none;
+        transition: 0.5s;
+}
+.top:hover {
+    transition: 0.5s;
+    color: #be6677;
+}
+
+
+footer {
+    background-color: #508EBF;
+    padding: 20px 15px 15px 420px;
+    height: 154px;
+}
+footer h1 {
+    color: #F7F6F6;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+}
+.footer {
+    position: absolute;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.footer h3 {
+    color: #F7F6F6;
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 11px;
+}
+footer article {
+    position: absolute;
+    width: 127px;
+}
+.Lisa {
+    left: 140px;
+}
+.etc {
+    left: 299px;
+    margin-top: 16px;
+}
+footer a {
+    color: #CCDBEA;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.I {
+    border-left: 1px solid #CCDBEA;
+    padding-left: 10px;
+}
+.social img {
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.social img:hover {
+    transition: 0.3s;
+    border: 5px double #F7F6F6;
+}
+.social {
+    position: absolute;
+    left: 810px;
+    top: 80px;
+        display: inline-flex;
+}
+footer p {
+    width: 200px;
+    font-size: 10px;
+    position: absolute;
+    color: #DC97A5;
+    left: 935px;
+    bottom:15px;
+}
